@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "roboto", sans-serif;
+    ;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-family: "roboto", sans-serif;
+    font-size: 1.25rem;
+    color: white;
+    line-height: 1.8rem;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.hero-nav {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 100%, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%), url(./asset/IN-en-20230327-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+    background-repeat: repeat;
+    background-size: auto;
+    height: 700px;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 100px;
+    align-items: center;
+}
+
+.Netflix-logo {
+    margin-top: 20px;
+    height: 80px;
+}
+
+.right-nav {
+    display: flex;
+    align-items: center;
+    /* padding-top: 10px; */
+    gap: 40px;
+}
+
+li {
+    list-style: none;
+}
+
+.list-lang {
+    text-align: center;
+    background-color: transparent;
+    color: white;
+    border-radius: 6px;
+    border: 1px solid white;
+    height: 40px;
+    width: 80px;
+}
+
+.primary-button {
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+    font-weight: 700;
+    padding: 10px;
+    box-shadow: 10px black;
+
+}
+
+.primary-button:hover {
+    background-color: darkred;
+    transition: 0.2s ease-out;
+}
+
+a {
+    text-decoration: none;
+}
+
+.head {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    color: white;
+}
+
+p {
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.email-enter {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+input[type="email"] {
+
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 8px;
+    top: 100px;
+    border: 1px solid white;
+    border-radius: 4px;
+    left: 8px;
+    font-size: 17px;
+    font-weight: bold;
+    color: #b8b8b8;
+}
+
+input[type=email]:focus {
+    outline: none;
+    border: 1px solid #c0c0c0;
+    color: #929497;
+}
+
+.break {
+    height: 10px;
+    background-color: #2f2e2e;
+}
+
+.left-feature {
+    margin-left: 70px;
+    color: white;
+    height: 500px;
+    background-color: #000000;
+    flex-direction: column;
+    max-width: 500px;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1 0px
+}
+
+.feature-section {
+    justify-content: center;
+    background-color: #000000;
+    gap: 50px;
+}
+
+.right-feature {
+    margin-right: 40px;
+}
+
+.faq {
+    justify-content: center;
+    color: white;
+    background-color: #000000;
+    flex-direction: column;
+    gap: 5px;
+    height: 650px;
+}
+
+.heading {
+    margin-top: 20px;
+}
+
+.h-box {
+    padding: 8px;
+    height: 50px;
+    width: 1000px;
+    background-color: #5a5a5a;
+}
+
+.p-box {
+    padding: 10px;
+    height: 130px;
+    width: 1000px;
+    background-color: #5a5a5a;
+
+}
+
+.p-box2 {
+    padding: 10px;
+    height: 80px;
+    width: 1000px;
+    background-color: #5a5a5a;
+
+}
+
+.footer-section {
+    height: 600px;
+    background-color: #000000;
+    color: white;
+}
+
+.footer-section {
+    padding: 40px;
+    align-items: flex-start;
+    justify-content: space-around;
+    gap: 40px;
+    height: 300px;
+    align-items: center;
+}
+
+.link-column {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: flex-start;
+}
+
+.footer-link {
+    color: #727272;
+}
